@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(176, 125, 220, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+.navbar-brand,
+.nav-link {
+  color: #7b2cbf;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #460084;
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+h5 {
+  color: #7b2cbf;
+  font-size: 2rem;
+}
+.btn-theme {
+  background-color: #9d4edd;
+  color: white;
+}
+
+.btn-theme:hover {
+  background-color: #7b2cbf;
+}
+footer {
+  background-color: #7b2cbf;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}

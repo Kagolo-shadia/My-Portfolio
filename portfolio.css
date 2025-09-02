@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.navbar {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(176, 125, 220, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+.navbar-brand,
+.nav-link {
+  color: #7b2cbf;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #460084;
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+h2 {
+  color: #7b2cbf;
+  margin-top: 20px;
+  text-align: center;
+}
+.card {
+  width: 16rem;
+  height: 22rem;
+  background-color: #c98cfe;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+.card img {
+  height: 14rem;
+}
+.card-head {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.card-body {
+  color: white;
+  font-size: 0.9rem;
+}
+.portfolio {
+  flex: 1;
+  margin-top: 5rem;
+}
+.section-title {
+  color: #7b2cbf;
+}
+a {
+  text-decoration: none;
+  color: #8a08fc;
+}
+a:hover {
+  color: white;
+}
+@media screen and (max-width: 576px) {
+  .card {
+    margin-left: 1.7rem;
+  }
+}
+footer {
+  background-color: #7b2cbf;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
