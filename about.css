@@ -64,6 +64,31 @@ h4 {
   padding: 1rem;
   border-radius: 8px;
 }
+@media (max-width: 768px) {
+  .skill-item,
+  .skill-item.reverse {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .skill-text ul {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .skill-item,
+  .skill-item.reverse {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .skill-text ul {
+    padding-left: 0;
+    margin-top: 1rem;
+    text-align: left;
+  }
+}
 footer {
   background-color: #7b2cbf;
   color: white;
