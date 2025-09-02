@@ -53,6 +53,18 @@ body {
     text-align: center;
   }
 }
+@media screen and (max-width: 393px) {
+  .hero {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 852px) {
+  .hero {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
 .btn-theme {
   background-color: #9d4edd;
   color: white;
