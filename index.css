@@ -41,6 +41,18 @@ body {
   border: 4px solid #9d4edd;
   margin-right: 2rem;
 }
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero {
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
 .btn-theme {
   background-color: #9d4edd;
   color: white;

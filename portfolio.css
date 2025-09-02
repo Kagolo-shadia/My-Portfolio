@@ -69,7 +69,24 @@ a:hover {
 }
 @media screen and (max-width: 576px) {
   .card {
-    margin-left: 1.7rem;
+    margin-left: 3.7rem;
+    width: 22rem;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 22rem;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+@media (min-width: 390px) {
+  .card {
+    width: 22rem;
+    flex-direction: column !important;
+    text-align: center;
   }
 }
 footer {
