@@ -94,6 +94,8 @@ a:hover {
     width: 22rem;
     flex-direction: column !important;
     text-align: center;
+    margin-right: 3rem;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 852px) {
@@ -101,6 +103,8 @@ a:hover {
     width: 22rem;
     flex-direction: column !important;
     text-align: center;
+    margin-right: 3rem;
+    margin-left: 0;
   }
 }
 footer {
