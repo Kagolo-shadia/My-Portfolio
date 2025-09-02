@@ -89,6 +89,20 @@ a:hover {
     text-align: center;
   }
 }
+@media screen and (max-width: 393px) {
+  .card {
+    width: 22rem;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 852px) {
+  .card {
+    width: 22rem;
+    flex-direction: column !important;
+    text-align: center;
+  }
+}
 footer {
   background-color: #7b2cbf;
   color: white;
