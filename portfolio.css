@@ -67,44 +67,7 @@ a {
 a:hover {
   color: white;
 }
-@media screen and (max-width: 576px) {
-  .card {
-    margin-left: 3.7rem;
-    width: 22rem;
-    flex-direction: column !important;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .card {
-    width: 22rem;
-    flex-direction: column !important;
-    text-align: center;
-  }
-}
-@media (min-width: 390px) {
-  .card {
-    width: 22rem;
-    flex-direction: column !important;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 393px) {
-  .card {
-    width: 22rem;
-    flex-direction: column !important;
-    text-align: center;
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 852px) {
-  .card {
-    width: 22rem;
-    flex-direction: column !important;
-    text-align: center;
-    margin-left: 0;
-  }
-}
+
 footer {
   background-color: #7b2cbf;
   color: white;
