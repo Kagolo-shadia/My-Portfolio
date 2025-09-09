@@ -59,13 +59,15 @@ footer p {
   margin: 0.5rem 0;
   text-align: left;
 }
-.footer-social a {
+.footer-social a,
+.footer a {
   color: white;
   margin: 0 0.5rem;
   transition: color 0.3s ease;
   text-align: left;
 }
-.footer-social a:hover {
+.footer-social a:hover,
+.footer a:hover {
   color: #460084;
 }
 .footer-bottom p {
